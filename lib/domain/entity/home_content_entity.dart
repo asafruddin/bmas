@@ -7,7 +7,7 @@ class HomeContentEntity extends Equatable {
   const HomeContentEntity({required this.products, required this.articles});
 
   @override
-  List<Object?> get props => throw UnimplementedError();
+  List<Object?> get props => [products, articles];
 }
 
 class ContentEntity extends Equatable {
